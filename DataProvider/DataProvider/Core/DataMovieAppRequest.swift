@@ -28,6 +28,6 @@ public extension DataMovieAppRequest {
     }
     
     var url: String {
-        return "https://api.themoviedb.org/3/" + path
+        return "https://api.openweathermap.org/data/2.5/" + path
     }
 }
