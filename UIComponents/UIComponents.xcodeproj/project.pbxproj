@@ -14,6 +14,19 @@
 		2D63F2922B314A1800BE6A4E /* ToastPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2912B314A1800BE6A4E /* ToastPresenter.swift */; };
 		2D63F2942B314A2800BE6A4E /* ToastWarningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2932B314A2800BE6A4E /* ToastWarningView.swift */; };
 		2D63F2962B314A4100BE6A4E /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2952B314A4100BE6A4E /* ActivityIndicatorView.swift */; };
+		2D63F2992B314D2500BE6A4E /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2D63F2982B314D2500BE6A4E /* swiftgen.yml */; };
+		2D63F29D2B314D5600BE6A4E /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F29C2B314D5600BE6A4E /* Fonts.swift */; };
+		2D63F2A42B314DC300BE6A4E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2D63F2A32B314DC300BE6A4E /* Localizable.strings */; };
+		2D63F2A72B314DFC00BE6A4E /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D63F2A62B314DFC00BE6A4E /* Icons.xcassets */; };
+		2D63F2A92B314E0900BE6A4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D63F2A82B314E0900BE6A4E /* Images.xcassets */; };
+		2D63F2AB2B314E1500BE6A4E /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D63F2AA2B314E1500BE6A4E /* Colors.xcassets */; };
+		2D63F2AD2B314E2200BE6A4E /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2AC2B314E2200BE6A4E /* Assets.swift */; };
+		2D63F2AF2B314E3F00BE6A4E /* UIImage+Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2AE2B314E3F00BE6A4E /* UIImage+Images.swift */; };
+		2D63F2B12B314E4C00BE6A4E /* UIImage+Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2B02B314E4C00BE6A4E /* UIImage+Icons.swift */; };
+		2D63F2B32B314E5B00BE6A4E /* UIColor+Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2B22B314E5B00BE6A4E /* UIColor+Colors.swift */; };
+		2D63F2B82B314EE100BE6A4E /* UIFonts+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2B72B314EE100BE6A4E /* UIFonts+Extensions.swift */; };
+		2D63F2BB2B314FC600BE6A4E /* Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2BA2B314FC600BE6A4E /* Localize.swift */; };
+		2D63F2BD2B31505300BE6A4E /* StringConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D63F2BC2B31505300BE6A4E /* StringConstants.swift */; };
 		33CE5E6C4AA3E2ADCA0E1108 /* Pods_UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B5DFB51786DCB7F71F7B3E /* Pods_UIComponents.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +39,22 @@
 		2D63F2912B314A1800BE6A4E /* ToastPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastPresenter.swift; sourceTree = "<group>"; };
 		2D63F2932B314A2800BE6A4E /* ToastWarningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastWarningView.swift; sourceTree = "<group>"; };
 		2D63F2952B314A4100BE6A4E /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		2D63F2982B314D2500BE6A4E /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
+		2D63F29C2B314D5600BE6A4E /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		2D63F2A32B314DC300BE6A4E /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2D63F2A62B314DFC00BE6A4E /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
+		2D63F2A82B314E0900BE6A4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2D63F2AA2B314E1500BE6A4E /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2D63F2AC2B314E2200BE6A4E /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		2D63F2AE2B314E3F00BE6A4E /* UIImage+Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Images.swift"; sourceTree = "<group>"; };
+		2D63F2B02B314E4C00BE6A4E /* UIImage+Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Icons.swift"; sourceTree = "<group>"; };
+		2D63F2B22B314E5B00BE6A4E /* UIColor+Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Colors.swift"; sourceTree = "<group>"; };
+		2D63F2B42B314ECA00BE6A4E /* Nunito-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-ExtraBold.ttf"; sourceTree = "<group>"; };
+		2D63F2B52B314ECA00BE6A4E /* Nunito-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-Bold.ttf"; sourceTree = "<group>"; };
+		2D63F2B62B314ECA00BE6A4E /* Nunito-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Nunito-SemiBold.ttf"; sourceTree = "<group>"; };
+		2D63F2B72B314EE100BE6A4E /* UIFonts+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFonts+Extensions.swift"; sourceTree = "<group>"; };
+		2D63F2BA2B314FC600BE6A4E /* Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localize.swift; sourceTree = "<group>"; };
+		2D63F2BC2B31505300BE6A4E /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		C213390342AA3550D40F3B30 /* Pods-UIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.release.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.release.xcconfig"; sourceTree = "<group>"; };
 		C4B5DFB51786DCB7F71F7B3E /* Pods_UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0262C5C6636C598B7CB65BA /* Pods-UIComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.debug.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +83,7 @@
 		2D63F25B2B3148B600BE6A4E = {
 			isa = PBXGroup;
 			children = (
+				2D63F2982B314D2500BE6A4E /* swiftgen.yml */,
 				2D63F2672B3148B600BE6A4E /* UIComponents */,
 				2D63F2662B3148B600BE6A4E /* Products */,
 				482F51F81A3476C602E413EB /* Pods */,
@@ -72,6 +102,7 @@
 		2D63F2672B3148B600BE6A4E /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				2D63F29A2B314D4000BE6A4E /* Resources */,
 				2D63F28A2B3149B800BE6A4E /* UIActivityIndicatorView */,
 				2D63F2892B3149AC00BE6A4E /* Toast */,
 				2D63F2882B3149A600BE6A4E /* Loading */,
@@ -107,6 +138,52 @@
 			path = UIActivityIndicatorView;
 			sourceTree = "<group>";
 		};
+		2D63F29A2B314D4000BE6A4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2D63F2A52B314DD700BE6A4E /* Assets */,
+				2D63F29E2B314D6E00BE6A4E /* Strings */,
+				2D63F29B2B314D4800BE6A4E /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2D63F29B2B314D4800BE6A4E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2D63F2B52B314ECA00BE6A4E /* Nunito-Bold.ttf */,
+				2D63F2B42B314ECA00BE6A4E /* Nunito-ExtraBold.ttf */,
+				2D63F2B62B314ECA00BE6A4E /* Nunito-SemiBold.ttf */,
+				2D63F29C2B314D5600BE6A4E /* Fonts.swift */,
+				2D63F2B72B314EE100BE6A4E /* UIFonts+Extensions.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2D63F29E2B314D6E00BE6A4E /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				2D63F2A32B314DC300BE6A4E /* Localizable.strings */,
+				2D63F2BA2B314FC600BE6A4E /* Localize.swift */,
+				2D63F2BC2B31505300BE6A4E /* StringConstants.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		2D63F2A52B314DD700BE6A4E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				2D63F2A62B314DFC00BE6A4E /* Icons.xcassets */,
+				2D63F2A82B314E0900BE6A4E /* Images.xcassets */,
+				2D63F2AA2B314E1500BE6A4E /* Colors.xcassets */,
+				2D63F2AC2B314E2200BE6A4E /* Assets.swift */,
+				2D63F2AE2B314E3F00BE6A4E /* UIImage+Images.swift */,
+				2D63F2B02B314E4C00BE6A4E /* UIImage+Icons.swift */,
+				2D63F2B22B314E5B00BE6A4E /* UIColor+Colors.swift */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		482F51F81A3476C602E413EB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -136,6 +213,7 @@
 			buildConfigurationList = 2D63F26C2B3148B600BE6A4E /* Build configuration list for PBXNativeTarget "UIComponents" */;
 			buildPhases = (
 				61B540C8BF304F150FB4A8CD /* [CP] Check Pods Manifest.lock */,
+				2D63F2B92B314F4C00BE6A4E /* Run Swiftgen */,
 				2D63F2602B3148B600BE6A4E /* Headers */,
 				2D63F2612B3148B600BE6A4E /* Sources */,
 				2D63F2622B3148B600BE6A4E /* Frameworks */,
@@ -188,12 +266,35 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D63F2AB2B314E1500BE6A4E /* Colors.xcassets in Resources */,
+				2D63F2992B314D2500BE6A4E /* swiftgen.yml in Resources */,
+				2D63F2A92B314E0900BE6A4E /* Images.xcassets in Resources */,
+				2D63F2A72B314DFC00BE6A4E /* Icons.xcassets in Resources */,
+				2D63F2A42B314DC300BE6A4E /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2D63F2B92B314F4C00BE6A4E /* Run Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Swiftgen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  \"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
 		61B540C8BF304F150FB4A8CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,12 +324,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D63F2B32B314E5B00BE6A4E /* UIColor+Colors.swift in Sources */,
+				2D63F2AF2B314E3F00BE6A4E /* UIImage+Images.swift in Sources */,
+				2D63F2B82B314EE100BE6A4E /* UIFonts+Extensions.swift in Sources */,
+				2D63F29D2B314D5600BE6A4E /* Fonts.swift in Sources */,
 				2D63F2902B314A0200BE6A4E /* BlockingActivityIndicator.swift in Sources */,
+				2D63F2BB2B314FC600BE6A4E /* Localize.swift in Sources */,
 				2D63F2942B314A2800BE6A4E /* ToastWarningView.swift in Sources */,
+				2D63F2B12B314E4C00BE6A4E /* UIImage+Icons.swift in Sources */,
 				2D63F28E2B3149F300BE6A4E /* ActivityIndicatorProtocol.swift in Sources */,
 				2D63F2962B314A4100BE6A4E /* ActivityIndicatorView.swift in Sources */,
+				2D63F2BD2B31505300BE6A4E /* StringConstants.swift in Sources */,
 				2D63F2922B314A1800BE6A4E /* ToastPresenter.swift in Sources */,
 				2D63F28C2B3149E100BE6A4E /* LoadingProtocol.swift in Sources */,
+				2D63F2AD2B314E2200BE6A4E /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
