@@ -37,6 +37,11 @@ public enum Asset {
   public enum Icons {
     public static let homeIcon = ImageAsset(name: "homeIcon")
     public static let icHeart = ImageAsset(name: "icHeart")
+    public static let moonCloudFastWind = ImageAsset(name: "moonCloudFastWind")
+    public static let moonCloudMidRain = ImageAsset(name: "moonCloudMidRain")
+    public static let sunCloudAngledRain = ImageAsset(name: "sunCloudAngledRain")
+    public static let sunCloudMidRain = ImageAsset(name: "sunCloudMidRain")
+    public static let tornado = ImageAsset(name: "tornado")
   }
   public enum Images {
     public static let backgroundImage = ImageAsset(name: "backgroundImage")
