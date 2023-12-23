@@ -6,6 +6,10 @@ import UIKit
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 public extension UIColor {
 
+  static var weatherPurple: UIColor {
+      return Asset.Colors.weatherPurple.color
+  }
+
   static var weatherBackground: UIColor {
       return Asset.Colors.weatherBackground.color
   }
@@ -24,10 +28,6 @@ public extension UIColor {
 
   static var weatherPrimary: UIColor {
       return Asset.Colors.weatherPrimary.color
-  }
-
-  static var weatherPurple: UIColor {
-      return Asset.Colors.weatherPurple.color
   }
 
   static var weatherSecondary: UIColor {

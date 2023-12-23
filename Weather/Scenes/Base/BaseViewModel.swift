@@ -22,7 +22,6 @@ protocol BaseViewModeProtocol: BaseViewModelDataSource, BaseViewModelEventSource
 
 class BaseViewModel<R: Router>: BaseViewModeProtocol {
     
-
     var showActivityIndicatorView: VoidClosure?
     var hideActivityIndicatorView: VoidClosure?
     
