@@ -13,10 +13,12 @@ public struct WeatherRequest: APIDecodableResponseRequest {
     public let method: RequestMethod = .get
     public var parameters: RequestParameters = [:]
     
-    public init(longitude: Double, latitude: Double) {
-        self.parameters["lon"] = longitude
+    public init(latitude: Double, longitude: Double) {
+        
         self.parameters["lat"] = latitude
-        self.parameters["api_key"] = "634d45deea899cf0574486522709d9a4"
+        self.parameters["lon"] = longitude
+        
+        self.parameters["appid"] = Base.apiKey
     }
     
 }

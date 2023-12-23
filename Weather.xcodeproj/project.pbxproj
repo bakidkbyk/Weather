@@ -570,6 +570,7 @@
 				DEVELOPMENT_TEAM = 6KBC8FTKD3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your locations";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your locations";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -602,6 +603,7 @@
 				DEVELOPMENT_TEAM = 6KBC8FTKD3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Weather/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your locations";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your locations";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
