@@ -35,7 +35,7 @@ extension MainViewModel {
     
     func getWeather(latitude: Double, longitude: Double) {
         let request = WeatherRequest(latitude: latitude, longitude: longitude)
-        showLoading?()
+        self.showActivityIndicatorView?()
         dataProvider.request(for: request) { [weak self] result in
             guard let self = self else { return }
             self.hideActivityIndicatorView?()

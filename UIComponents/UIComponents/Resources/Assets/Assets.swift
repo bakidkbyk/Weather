@@ -25,20 +25,21 @@ public typealias AssetImageTypeAlias = ImageAsset.Image
 // swiftlint:disable identifier_name line_length nesting type_body_length type_name
 public enum Asset {
   public enum Colors {
+    public static let weatherPurple = ColorAsset(name: "WeatherPurple")
     public static let weatherBackground = ColorAsset(name: "weatherBackground")
     public static let weatherDarkBlue = ColorAsset(name: "weatherDarkBlue")
     public static let weatherGray = ColorAsset(name: "weatherGray")
     public static let weatherPink = ColorAsset(name: "weatherPink")
     public static let weatherPrimary = ColorAsset(name: "weatherPrimary")
-    public static let weatherPurple = ColorAsset(name: "weatherPurple")
     public static let weatherSecondary = ColorAsset(name: "weatherSecondary")
     public static let weatherlinearBackground = ColorAsset(name: "weatherlinearBackground")
   }
   public enum Icons {
+    public static let homeIcon = ImageAsset(name: "homeIcon")
+    public static let icHeart = ImageAsset(name: "icHeart")
   }
   public enum Images {
     public static let backgroundImage = ImageAsset(name: "backgroundImage")
-    public static let home = ImageAsset(name: "home")
   }
 }
 // swiftlint:enable identifier_name line_length nesting type_body_length type_name
