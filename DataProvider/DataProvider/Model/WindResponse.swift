@@ -7,5 +7,5 @@
 
 public struct WindResponse: Decodable {
     
-    public let speed: Int
+    public let speed: Double?
 }
