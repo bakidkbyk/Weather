@@ -31,6 +31,7 @@
 		2D9884DB2B34C93900EC9B82 /* Nunito-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D63F2B42B314ECA00BE6A4E /* Nunito-ExtraBold.ttf */; };
 		2D9884DC2B34C93C00EC9B82 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D63F2B62B314ECA00BE6A4E /* Nunito-SemiBold.ttf */; };
 		2D9884DE2B34C97800EC9B82 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9884DD2B34C97800EC9B82 /* Fonts.swift */; };
+		2DC277D62B3B50DC00F10C50 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC277D52B3B50DC00F10C50 /* FloatLabelTextField.swift */; };
 		2DF4B7982B37757500246E23 /* WeatherListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4B7962B37757500246E23 /* WeatherListCell.swift */; };
 		2DF4B7992B37757500246E23 /* WeatherListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4B7972B37757500246E23 /* WeatherListCellModel.swift */; };
 		2DF4B79C2B3775A500246E23 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4B79B2B3775A500246E23 /* ReusableView.swift */; };
@@ -63,6 +64,7 @@
 		2D63F2BC2B31505300BE6A4E /* StringConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringConstants.swift; sourceTree = "<group>"; };
 		2D9884CF2B34C03500EC9B82 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2D9884DD2B34C97800EC9B82 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		2DC277D52B3B50DC00F10C50 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
 		2DF4B7962B37757500246E23 /* WeatherListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListCell.swift; sourceTree = "<group>"; };
 		2DF4B7972B37757500246E23 /* WeatherListCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListCellModel.swift; sourceTree = "<group>"; };
 		2DF4B79B2B3775A500246E23 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		2D63F2672B3148B600BE6A4E /* UIComponents */ = {
 			isa = PBXGroup;
 			children = (
+				2DC277D42B3B50C900F10C50 /* FloatLabelTextField */,
 				2DF4B79A2B37759700246E23 /* Protocol */,
 				2D9884CE2B34C01C00EC9B82 /* View */,
 				2D6EE2142B32BBE100FA63D1 /* Cell */,
@@ -213,6 +216,14 @@
 				2D9884CF2B34C03500EC9B82 /* MainView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		2DC277D42B3B50C900F10C50 /* FloatLabelTextField */ = {
+			isa = PBXGroup;
+			children = (
+				2DC277D52B3B50DC00F10C50 /* FloatLabelTextField.swift */,
+			);
+			path = FloatLabelTextField;
 			sourceTree = "<group>";
 		};
 		2DF4B79A2B37759700246E23 /* Protocol */ = {
@@ -375,6 +386,7 @@
 				2DF4B7992B37757500246E23 /* WeatherListCellModel.swift in Sources */,
 				2D63F2BB2B314FC600BE6A4E /* Localize.swift in Sources */,
 				2D63F2942B314A2800BE6A4E /* ToastWarningView.swift in Sources */,
+				2DC277D62B3B50DC00F10C50 /* FloatLabelTextField.swift in Sources */,
 				2DF4B79C2B3775A500246E23 /* ReusableView.swift in Sources */,
 				2D63F2B12B314E4C00BE6A4E /* UIImage+Icons.swift in Sources */,
 				2D63F28E2B3149F300BE6A4E /* ActivityIndicatorProtocol.swift in Sources */,

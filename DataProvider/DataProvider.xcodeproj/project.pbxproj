@@ -22,6 +22,7 @@
 		2DB174E12B322BEC00F2FB6B /* MainResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB174E02B322BEC00F2FB6B /* MainResponse.swift */; };
 		2DB174E32B322BF500F2FB6B /* WindResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB174E22B322BF500F2FB6B /* WindResponse.swift */; };
 		2DB174E82B32306700F2FB6B /* WeatherRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB174E72B32306700F2FB6B /* WeatherRequest.swift */; };
+		2DC277DE2B3B615100F10C50 /* WeatherListRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC277DD2B3B615100F10C50 /* WeatherListRequest.swift */; };
 		ACD307017457E6BE8F396451 /* Pods_DataProvider.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7A3FED7391FA76E514B8DB /* Pods_DataProvider.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +45,7 @@
 		2DB174E02B322BEC00F2FB6B /* MainResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainResponse.swift; sourceTree = "<group>"; };
 		2DB174E22B322BF500F2FB6B /* WindResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindResponse.swift; sourceTree = "<group>"; };
 		2DB174E72B32306700F2FB6B /* WeatherRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherRequest.swift; sourceTree = "<group>"; };
+		2DC277DD2B3B615100F10C50 /* WeatherListRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListRequest.swift; sourceTree = "<group>"; };
 		9A7A3FED7391FA76E514B8DB /* Pods_DataProvider.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataProvider.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -129,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				2DB174E72B32306700F2FB6B /* WeatherRequest.swift */,
+				2DC277DD2B3B615100F10C50 /* WeatherListRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				2D53022A2B2F8775001001F0 /* DecodableResponseRequest.swift in Sources */,
 				2D5302242B2F8775001001F0 /* DataProviderResult.swift in Sources */,
 				2D5302282B2F8775001001F0 /* Typealias.swift in Sources */,
+				2DC277DE2B3B615100F10C50 /* WeatherListRequest.swift in Sources */,
 				2DB174DB2B322AAD00F2FB6B /* WeatherAppResponse.swift in Sources */,
 				2DB174E82B32306700F2FB6B /* WeatherRequest.swift in Sources */,
 				2D5302272B2F8775001001F0 /* RequestProtocol.swift in Sources */,
