@@ -32,4 +32,11 @@ public final class WeatherListCellModel: WeatherListCellProtocol {
     public var highTemperature: Double?
     public var lowTemperature: Double?
     
+    public init(cityName: String?, temperature: Double?, descriptiontext: String?, highTemperature: Double?, lowTemperature: Double?) {
+        self.cityName = cityName
+        self.temperature = temperature
+        self.descriptiontext = descriptiontext
+        self.highTemperature = highTemperature
+        self.lowTemperature = lowTemperature
+    }
 }

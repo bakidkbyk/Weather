@@ -19,6 +19,7 @@ target 'Weather' do
   # UI
   pod 'TinyConstraints', '~> 4.0'
   pod 'MobilliumBuilders', '~> 1.4'
+  pod 'Segmentio', '~> 4.1'
 
 end
 
@@ -44,6 +45,7 @@ target 'UIComponents' do
   # UI
   pod 'TinyConstraints', '~> 4.0'
   pod 'MobilliumBuilders', '~> 1.4'
+  pod 'Segmentio', '~> 4.1'
   
 end
 

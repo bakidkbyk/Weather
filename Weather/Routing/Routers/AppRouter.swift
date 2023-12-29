@@ -7,11 +7,11 @@
 
 final class AppRouter: Router, AppRouter.Routes {
     
-    typealias Routes = MainTabBarRoute
+    typealias Routes = HomeRoute
     
     static let shared = AppRouter()
     
     func startApp() {
-        placeOnWindowTabBar()
+        placeOnWindowHome()
     }
 }
