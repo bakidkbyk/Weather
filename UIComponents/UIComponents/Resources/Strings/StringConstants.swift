@@ -11,9 +11,31 @@ import Foundation
 // swiftlint:disable nesting type_body_length type_name vertical_whitespace_opening_braces
 public enum L10n {
 
+  public enum Home {
+    /// Current Weather
+    public static let currentWeather = L10n.tr("Localizable", "Home.currentWeather")
+    /// Weather List
+    public static let weatherList = L10n.tr("Localizable", "Home.weatherList")
+  }
+
+  public enum MainViewController {
+    /// Humidity
+    public static let humidity = L10n.tr("Localizable", "MainViewController.humidity")
+    /// Max Temp
+    public static let maxTemp = L10n.tr("Localizable", "MainViewController.maxTemp")
+    /// Min temp
+    public static let minTemp = L10n.tr("Localizable", "MainViewController.minTemp")
+    /// Weather Now
+    public static let weatherTitleText = L10n.tr("Localizable", "MainViewController.weatherTitleText")
+    /// Wind Speed
+    public static let windSpeed = L10n.tr("Localizable", "MainViewController.windSpeed")
+  }
+
   public enum WeatherList {
     /// Add City
     public static let ciytLabelTitle = L10n.tr("Localizable", "WeatherList.ciytLabelTitle")
+    /// Send
+    public static let sendButtonTitle = L10n.tr("Localizable", "WeatherList.sendButtonTitle")
   }
 }
 // swiftlint:enable explicit_type_interface function_parameter_count identifier_name line_length

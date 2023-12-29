@@ -11,6 +11,9 @@ protocol MainViewDataSource {
     var descriptiontext: String? { get }
     var highTemperature: Double? { get }
     var lowTemperature: Double? { get }
+    var windSpeed: Double? { get }
+    var humidity: Int? { get }
+    
 }
 
 protocol MainViewEventSource {}
@@ -24,6 +27,8 @@ final class MainViewModel: BaseViewModel<MainRouter>, MainViewProtocol {
     var descriptiontext: String?
     var highTemperature: Double?
     var lowTemperature: Double?
+    var windSpeed: Double?
+    var humidity: Int?
     
     var isGetDataDidSuccess: VoidClosure?
     
@@ -55,5 +60,7 @@ extension MainViewModel {
         descriptiontext = data.weather.first?.descriptionText
         highTemperature = data.main.temperatureMaximum
         lowTemperature = data.main.temperatureMinimum
+        windSpeed = data.wind.speed
+        humidity = data.main.humidity
     }
 }

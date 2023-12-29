@@ -37,10 +37,10 @@ public extension UIFont {
 
         public var rawValue: CGFloat {
             switch self {
-            case .xSmall:           return 11
-            case .small:            return 12
-            case .medium:           return 13
-            case .large:            return 40
+            case .xSmall:           return 12
+            case .small:            return 14
+            case .medium:           return 16
+            case .large:            return 18
             case .xLarge:           return 50
             case .xxLarge:          return 60
             case .custom(let size): return size

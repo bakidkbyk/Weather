@@ -5,4 +5,18 @@
   Created by Baki Dikbıyık on 19.12.2023.
   
 */
+
+// MARK: - Home
+"Home.currentWeather" = "Current Weather";
+"Home.weatherList" = "Weather List";
+
+// MARK: MainViewController
+"MainViewController.minTemp" = "Min temp";
+"MainViewController.maxTemp" = "Max Temp";
+"MainViewController.windSpeed" = "Wind Speed";
+"MainViewController.humidity" = "Humidity";
+"MainViewController.weatherTitleText" = "Weather Now";
+
+// MARK: - WeatherListController
 "WeatherList.ciytLabelTitle" = "Add City";
+"WeatherList.sendButtonTitle" = "Send";

@@ -12,7 +12,7 @@ public struct MainResponse: Decodable {
     public let temperatureMinimum: Double?
     public let temperatureMaximum: Double?
     public let pressure: Double?
-    public let humidity: Double?
+    public let humidity: Int?
     
     enum CodingKeys: String, CodingKey {
         case temperature = "temp"
