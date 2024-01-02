@@ -3,4 +3,54 @@
    uuid = "F3E0F5E4-4021-45C5-ADFC-122A6E15AA2D"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5FC7A8C6-7C0B-4DE0-9341-5FFDDD86708A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Weather/Scenes/WeatherList/WeatherListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getWeatherList(cityName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5FC7A8C6-7C0B-4DE0-9341-5FFDDD86708A - 616f4aa99f7a7e3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Result&lt;DataProvider.BaseResponse&lt;Swift.Array&lt;DataProvider.WeatherAppResponse&gt;&gt;, Swift.Error&gt;) -&gt; () in Weather.WeatherListViewModel.getWeatherList(cityName: Swift.String) -&gt; ()"
+                  moduleName = "Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baki/Desktop/Weather/Weather/Scenes/WeatherList/WeatherListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "491">
+               </Location>
+               <Location
+                  uuid = "5FC7A8C6-7C0B-4DE0-9341-5FFDDD86708A - 616b88dfe5b7491e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (DataProvider.WeatherAppResponse) -&gt; UIComponents.WeatherListCellModel in closure #1 (Swift.Result&lt;DataProvider.BaseResponse&lt;Swift.Array&lt;DataProvider.WeatherAppResponse&gt;&gt;, Swift.Error&gt;) -&gt; () in Weather.WeatherListViewModel.getWeatherList(cityName: Swift.String) -&gt; ()"
+                  moduleName = "Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/baki/Desktop/Weather/Weather/Scenes/WeatherList/WeatherListViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "58">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

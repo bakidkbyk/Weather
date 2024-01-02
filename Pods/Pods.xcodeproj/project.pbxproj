@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = SwiftGen;
+			productName = SwiftGen;
 		};
 		52B60EC2A583F24ACBB69C113F5488B9 /* SwiftLint */ = {
 			isa = PBXAggregateTarget;
@@ -24,6 +25,7 @@
 			dependencies = (
 			);
 			name = SwiftLint;
+			productName = SwiftLint;
 		};
 /* End PBXAggregateTarget section */
 
@@ -123,7 +125,7 @@
 		82FD97FBBEFE51E2D3B434AF4954FC93 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 798989C7A757777AB8F53D1B7BC30D77 /* EventMonitor.swift */; };
 		83AE6249033A8D067BD881A24BB65A57 /* SegmentioCellWithImageOverLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB55FD775AABB2931A8B504D0F4232A /* SegmentioCellWithImageOverLabel.swift */; };
 		852A868A984EB67068160C2987B5F039 /* SegmentioCellWithImageAfterLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EDB39571B1AEAEF52994428E036621 /* SegmentioCellWithImageAfterLabel.swift */; };
-		866DFC022937069F38003035850BB546 /* Segmentio-Segmentio in Resources */ = {isa = PBXBuildFile; fileRef = C8F2C375082C9FA86026FA0A69016000 /* Segmentio-Segmentio */; };
+		866DFC022937069F38003035850BB546 /* Segmentio.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */; };
 		88C5DF3CF76561FDA442EAACA2784DC6 /* UIView+QuickLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841B927DD5012CE6D69E835FA724CEE7 /* UIView+QuickLayout.swift */; };
 		8B127E1F069BC43B08EABC5E61426762 /* UIApplication+EKAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B9166D46A105E28DA757E306020E9A /* UIApplication+EKAppearance.swift */; };
 		8CE7C083FF755D10000577B3307064DB /* EKNotificationMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716B0C2234A07CF2D1D07D3735FB57AE /* EKNotificationMessageView.swift */; };
@@ -373,7 +375,7 @@
 		2DD9181E324082EA8DBAA2BBA646A203 /* Pods-DataProvider-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DataProvider-umbrella.h"; sourceTree = "<group>"; };
 		2F06CBB4D0B47A611EB3068F1504E41B /* EKProcessingNoteMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EKProcessingNoteMessageView.swift; path = Source/MessageViews/Notes/EKProcessingNoteMessageView.swift; sourceTree = "<group>"; };
 		306875D02B71356EEA1505611722C809 /* SwiftEntryKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftEntryKit.debug.xcconfig; sourceTree = "<group>"; };
-		34BBC3D2C57FE2FDB60A761925690711 /* Pods-UIComponents */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UIComponents"; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34BBC3D2C57FE2FDB60A761925690711 /* Pods_UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35FFA3809C807D451A3E596D29DF495D /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
 		365DEC6701370062AAAED3BB6856979C /* EKAttributes+Duration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKAttributes+Duration.swift"; path = "Source/Model/EntryAttributes/EKAttributes+Duration.swift"; sourceTree = "<group>"; };
 		37E8066CDC7601F36F1241479DB74665 /* EKWindowProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EKWindowProvider.swift; path = Source/Infra/EKWindowProvider.swift; sourceTree = "<group>"; };
@@ -396,7 +398,7 @@
 		49B9166D46A105E28DA757E306020E9A /* UIApplication+EKAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+EKAppearance.swift"; path = "Source/Extensions/UIApplication+EKAppearance.swift"; sourceTree = "<group>"; };
 		4A60D0E0DB759E46B6C2CC8353B1FFEE /* SwiftEntryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftEntryKit-Info.plist"; sourceTree = "<group>"; };
 		4C9A6A3A43C593952E7B83311EFC08A1 /* AttributedStringDictionaryBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedStringDictionaryBuilder.swift; path = Sources/MobilliumBuilders/Classes/AttributedStringDictionaryBuilder.swift; sourceTree = "<group>"; };
-		4CECED3294E401E6F6355B401144109A /* Pods-Weather */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Weather"; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CECED3294E401E6F6355B401144109A /* Pods_Weather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Weather.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		500B9F020C2EF4B92837E728FF4C4AC2 /* Pods-DataProvider-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DataProvider-acknowledgements.plist"; sourceTree = "<group>"; };
 		506CEA42ED60A3A79ACFF87C03C0BBB4 /* EKAttributes+Animation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EKAttributes+Animation.swift"; path = "Source/Model/EntryAttributes/EKAttributes+Animation.swift"; sourceTree = "<group>"; };
 		5103440357CDC34F260BF5D724A29069 /* Segmentio-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Segmentio-Info.plist"; sourceTree = "<group>"; };
@@ -470,7 +472,7 @@
 		9697E5C0F0C2458A8F7B11ECBB0CCD4C /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
 		9A74B5E6EDC605A735D86D140F2F57D9 /* Pods-Utilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Utilities.release.xcconfig"; sourceTree = "<group>"; };
 		9A9C58DDF357164F67E125AF3914B1A4 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainSwift; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E15E4B7F63FAFC01916B6BD4978F525 /* SwiftEntryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftEntryKit.modulemap; sourceTree = "<group>"; };
 		9EBB2F58C0C0E83FA9EEB2E05E39C8CA /* MobilliumBuilders.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MobilliumBuilders.release.xcconfig; sourceTree = "<group>"; };
@@ -515,7 +517,7 @@
 		C7C948E84C86F22B3102E5FB4CED09D9 /* EKXStatusBarMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EKXStatusBarMessageView.swift; path = Source/MessageViews/Notes/EKXStatusBarMessageView.swift; sourceTree = "<group>"; };
 		C83E223C788C4B7663BF643167B8EA9D /* Pods-DataProvider.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DataProvider.modulemap"; sourceTree = "<group>"; };
 		C8B7B987FA9770A3F85867BF64AA43D6 /* TinyConstraints-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TinyConstraints-Info.plist"; sourceTree = "<group>"; };
-		C8F2C375082C9FA86026FA0A69016000 /* Segmentio-Segmentio */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Segmentio-Segmentio"; path = Segmentio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Segmentio.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB143E0120010C7211FF659504E88055 /* EKSimpleMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EKSimpleMessageView.swift; path = Source/MessageViews/EKSimpleMessageView.swift; sourceTree = "<group>"; };
 		CB9B6D53CEAADCDE29018C2A97C60EA9 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		CBD394369F25ABB94C10380DCC733977 /* Segmentio.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Segmentio.modulemap; sourceTree = "<group>"; };
@@ -539,7 +541,7 @@
 		E03483BF8ED7A67FD52A06382448D88E /* SwiftLint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftLint.debug.xcconfig; sourceTree = "<group>"; };
 		E05579B8E4EA9E5E1D65588E5924D581 /* EKSimpleMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EKSimpleMessage.swift; path = Source/Model/EKSimpleMessage.swift; sourceTree = "<group>"; };
 		E0DE977A1F318FB1956F6D4F00D4AFFB /* EKFormMessageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EKFormMessageView.swift; path = Source/MessageViews/EKFormMessageView.swift; sourceTree = "<group>"; };
-		E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Segmentio; path = Segmentio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segmentio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2AF296230DF3CB4BF79D78F99073C65 /* Pods-UIComponents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIComponents.debug.xcconfig"; sourceTree = "<group>"; };
 		E44278EF135E931EB99F30B080375E32 /* Pods-Utilities */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Utilities"; path = Pods_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4E1E562D488EE4BDBFBF33B1254A03F /* UIScrollViewBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIScrollViewBuilder.swift; path = Sources/MobilliumBuilders/Classes/UIScrollViewBuilder.swift; sourceTree = "<group>"; };
@@ -728,7 +730,6 @@
 				8719055A72863BFA3A6CDB5719295052 /* Resources */,
 				139C6256228E1040473F1E07C1FF6AD4 /* Support Files */,
 			);
-			name = Segmentio;
 			path = Segmentio;
 			sourceTree = "<group>";
 		};
@@ -836,7 +837,6 @@
 				E8981847730BEF7CD034B353D1AF7C3D /* UIViewArray+QuickLayout.swift */,
 				2585AD80C8FFB676DE744C76EBEFC4F1 /* Support Files */,
 			);
-			name = SwiftEntryKit;
 			path = SwiftEntryKit;
 			sourceTree = "<group>";
 		};
@@ -899,7 +899,6 @@
 				51FA1B553D1AAC83E890C47EAA01C1B6 /* UIViewBuilder.swift */,
 				E70E1346D4E6AC45C20296780E682236 /* Support Files */,
 			);
-			name = MobilliumBuilders;
 			path = MobilliumBuilders;
 			sourceTree = "<group>";
 		};
@@ -952,7 +951,6 @@
 				1493A74DB1EA98D1489AFB3259634F09 /* TinyEdgeInsets.swift */,
 				CBCF2704848D01CBFDBD5B32616F4E80 /* Support Files */,
 			);
-			name = TinyConstraints;
 			path = TinyConstraints;
 			sourceTree = "<group>";
 		};
@@ -992,7 +990,6 @@
 			children = (
 				1486A6B8211B23D4F07B04758399EA17 /* Support Files */,
 			);
-			name = SwiftGen;
 			path = SwiftGen;
 			sourceTree = "<group>";
 		};
@@ -1001,7 +998,6 @@
 			children = (
 				3666B616A22DC69B1D05A0F13B938E9F /* Support Files */,
 			);
-			name = SwiftLint;
 			path = SwiftLint;
 			sourceTree = "<group>";
 		};
@@ -1012,11 +1008,11 @@
 				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift */,
 				C15B281C595D1D46A307C1CD3178DBD7 /* MobilliumBuilders */,
 				5A15AA6940092A67973402B3ECBFD393 /* Pods-DataProvider */,
-				34BBC3D2C57FE2FDB60A761925690711 /* Pods-UIComponents */,
+				34BBC3D2C57FE2FDB60A761925690711 /* Pods_UIComponents.framework */,
 				E44278EF135E931EB99F30B080375E32 /* Pods-Utilities */,
-				4CECED3294E401E6F6355B401144109A /* Pods-Weather */,
-				E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio */,
-				C8F2C375082C9FA86026FA0A69016000 /* Segmentio-Segmentio */,
+				4CECED3294E401E6F6355B401144109A /* Pods_Weather.framework */,
+				E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */,
+				C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */,
 				DA5F7E5AA5A762E4504855EAF3216C8A /* SwiftEntryKit */,
 				248EB203AE249596FFC55952F5590D95 /* TinyConstraints */,
 			);
@@ -1087,7 +1083,6 @@
 				BF6745651385CE93FF5C5A1E0E50BD51 /* TegKeychainConstants.swift */,
 				DD859204BA3425865574FF1D9DBEFA54 /* Support Files */,
 			);
-			name = KeychainSwift;
 			path = KeychainSwift;
 			sourceTree = "<group>";
 		};
@@ -1133,7 +1128,6 @@
 				F84C7F8CA48725FE4B89C6E511446B3E /* Validation.swift */,
 				1523D60D90AD9DB2B3C720AD8AD7D120 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -1263,7 +1257,7 @@
 			);
 			name = "Pods-Weather";
 			productName = Pods_Weather;
-			productReference = 4CECED3294E401E6F6355B401144109A /* Pods-Weather */;
+			productReference = 4CECED3294E401E6F6355B401144109A /* Pods_Weather.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		37D946402EAE11D13E8A8CBB3B95D011 /* Segmentio */ = {
@@ -1282,7 +1276,7 @@
 			);
 			name = Segmentio;
 			productName = Segmentio;
-			productReference = E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio */;
+			productReference = E17D1F60CD1816128BD7D11434B9EDC6 /* Segmentio.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		45C4E325E7851DD54CC3AD44C7A71935 /* TinyConstraints */ = {
@@ -1353,7 +1347,7 @@
 			);
 			name = "Segmentio-Segmentio";
 			productName = Segmentio;
-			productReference = C8F2C375082C9FA86026FA0A69016000 /* Segmentio-Segmentio */;
+			productReference = C8F2C375082C9FA86026FA0A69016000 /* Segmentio.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		B425F5FB5BB2C6F0C0CB42812B641DD2 /* Pods-DataProvider */ = {
@@ -1396,7 +1390,7 @@
 			);
 			name = "Pods-UIComponents";
 			productName = Pods_UIComponents;
-			productReference = 34BBC3D2C57FE2FDB60A761925690711 /* Pods-UIComponents */;
+			productReference = 34BBC3D2C57FE2FDB60A761925690711 /* Pods_UIComponents.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */ = {
@@ -1539,7 +1533,7 @@
 			files = (
 				A45C6978B572456DB3BA5B4AF399C2F7 /* BadgeWithCounterViewBigSized.xib in Resources */,
 				A7D01C817C3D67F23DB842D897E60CAD /* BadgeWithCounterViewStandardSized.xib in Resources */,
-				866DFC022937069F38003035850BB546 /* Segmentio-Segmentio in Resources */,
+				866DFC022937069F38003035850BB546 /* Segmentio.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
