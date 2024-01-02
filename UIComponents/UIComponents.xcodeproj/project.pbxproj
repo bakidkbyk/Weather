@@ -35,8 +35,6 @@
 		2D9884DC2B34C93C00EC9B82 /* Nunito-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D63F2B62B314ECA00BE6A4E /* Nunito-SemiBold.ttf */; };
 		2D9884DE2B34C97800EC9B82 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D9884DD2B34C97800EC9B82 /* Fonts.swift */; };
 		2DC277D62B3B50DC00F10C50 /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DC277D52B3B50DC00F10C50 /* FloatLabelTextField.swift */; };
-		2DF4B7982B37757500246E23 /* WeatherListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4B7962B37757500246E23 /* WeatherListCell.swift */; };
-		2DF4B7992B37757500246E23 /* WeatherListCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4B7972B37757500246E23 /* WeatherListCellModel.swift */; };
 		2DF4B79C2B3775A500246E23 /* ReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4B79B2B3775A500246E23 /* ReusableView.swift */; };
 		33CE5E6C4AA3E2ADCA0E1108 /* Pods_UIComponents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B5DFB51786DCB7F71F7B3E /* Pods_UIComponents.framework */; };
 /* End PBXBuildFile section */
@@ -71,8 +69,6 @@
 		2D9884CF2B34C03500EC9B82 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		2D9884DD2B34C97800EC9B82 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		2DC277D52B3B50DC00F10C50 /* FloatLabelTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
-		2DF4B7962B37757500246E23 /* WeatherListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListCell.swift; sourceTree = "<group>"; };
-		2DF4B7972B37757500246E23 /* WeatherListCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherListCellModel.swift; sourceTree = "<group>"; };
 		2DF4B79B2B3775A500246E23 /* ReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableView.swift; sourceTree = "<group>"; };
 		C213390342AA3550D40F3B30 /* Pods-UIComponents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIComponents.release.xcconfig"; path = "Target Support Files/Pods-UIComponents/Pods-UIComponents.release.xcconfig"; sourceTree = "<group>"; };
 		C4B5DFB51786DCB7F71F7B3E /* Pods_UIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,7 +130,6 @@
 				2DC277D42B3B50C900F10C50 /* FloatLabelTextField */,
 				2DF4B79A2B37759700246E23 /* Protocol */,
 				2D9884CE2B34C01C00EC9B82 /* View */,
-				2D6EE2142B32BBE100FA63D1 /* Cell */,
 				2D63F29A2B314D4000BE6A4E /* Resources */,
 				2D63F28A2B3149B800BE6A4E /* UIActivityIndicatorView */,
 				2D63F2892B3149AC00BE6A4E /* Toast */,
@@ -215,15 +210,6 @@
 				2D63F2B22B314E5B00BE6A4E /* UIColor+Colors.swift */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		2D6EE2142B32BBE100FA63D1 /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				2DF4B7962B37757500246E23 /* WeatherListCell.swift */,
-				2DF4B7972B37757500246E23 /* WeatherListCellModel.swift */,
-			);
-			path = Cell;
 			sourceTree = "<group>";
 		};
 		2D9884CE2B34C01C00EC9B82 /* View */ = {
@@ -401,7 +387,6 @@
 				2D63F2B82B314EE100BE6A4E /* UIFonts+Extensions.swift in Sources */,
 				2D63F2902B314A0200BE6A4E /* BlockingActivityIndicator.swift in Sources */,
 				2D9884D02B34C03500EC9B82 /* MainView.swift in Sources */,
-				2DF4B7992B37757500246E23 /* WeatherListCellModel.swift in Sources */,
 				2D63F2BB2B314FC600BE6A4E /* Localize.swift in Sources */,
 				2D63F2942B314A2800BE6A4E /* ToastWarningView.swift in Sources */,
 				2DC277D62B3B50DC00F10C50 /* FloatLabelTextField.swift in Sources */,
@@ -411,7 +396,6 @@
 				2D63F28E2B3149F300BE6A4E /* ActivityIndicatorProtocol.swift in Sources */,
 				2D63F2962B314A4100BE6A4E /* ActivityIndicatorView.swift in Sources */,
 				2D63F2BD2B31505300BE6A4E /* StringConstants.swift in Sources */,
-				2DF4B7982B37757500246E23 /* WeatherListCell.swift in Sources */,
 				2D52D3292B3B7DD8001494AA /* UICollectionView+Extension.swift in Sources */,
 				2D63F2922B314A1800BE6A4E /* ToastPresenter.swift in Sources */,
 				2D63F28C2B3149E100BE6A4E /* LoadingProtocol.swift in Sources */,
